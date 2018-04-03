@@ -1,0 +1,158 @@
+a.light:link{
+color:LightSteelBlue;}
+
+a.light:hover{
+color:LightSkyBlue;}
+
+div.coverImage{
+width: 1440px;
+height: 360px;
+background:url(coverImage.png) no-repeat center top;
+margin: 0 auto;
+}
+div.row{
+color:LightSteelBlue;
+font-family: Arial Black, Gadget,sans-serif;
+font-size: 15px;
+}
+
+div.circle1{
+border-radius: 50%;
+background:url(profile.jpg) no-repeat center top;
+position: relative;
+left: 140px;
+bottom: 160px;
+width: 200px;
+height: 200px;
+}
+
+span.follow{
+margin-left: 10px;
+margin-right: 10px;}
+
+button.btn-outline-primary{
+margin-top 10px;
+margin-left: 180px;
+color:LightSkyBlue;}
+
+#twoColumns{
+position:relative;
+bottom:200px;
+}
+div.col-5{
+background-color:#F0F2F3;
+z-index:-1;
+}
+div.content{
+margin-left:120px;
+margin-top:45px;}
+
+div.name{
+font-family: Arial Black, Gadget,sans-serif;
+color:black;
+font-size: 23px;
+}
+
+div.handle{
+font-size:15px;
+color:LightSteelBlue;
+font-family:Arial, Helvetica,sans-serif;
+}
+div.words{
+font-size:15px;
+color:black;
+font-family:Arial, Helvetica,sans-serif;}
+
+div.location,div.when,div.photos,div.link{
+font-size:15px;
+font-family:Arial, Helvetica,sans-serif;
+color:LightSteelBlue;}
+
+div.squarePhotos{
+width: 80px;
+height:80px;
+display: inline-block;
+}
+div.pic1{
+background:url(pic1.png) no-repeat center top;}
+div.pic2{
+background:url(pic2.png) no-repeat center top;}
+div.pic3{
+background:url(pic3.png) no-repeat center top;}
+div.pic4{
+background:url(pic4.png) no-repeat center top;}
+div.pic5{
+background:url(pic5.png) no-repeat center top;}
+div.pic6{
+background:url(pic6.png) no-repeat center top;}
+div.roundPhotos{
+width:50px;
+height:50px;
+display:inline-block;
+border-radius: 50%;}
+div.pic11{
+background:url(pic11.png) no-repeat center top;}
+div.pic22{
+background:url(pic22.png) no-repeat center top;}
+div.pic33{
+background:url(pic33.png) no-repeat center top;}
+div.pic44{
+background:url(pic44.png) no-repeat center top;}
+div.pic55{
+background:url(pic55.png) no-repeat center top;}
+div.pic66{
+background:url(pic66.png) no-repeat center top;}
+div.pic77{
+background:url(pic77.png) no-repeat center top;}
+div.pic88{
+background:url(pic88.png) no-repeat center top;}
+div.pic99{
+background:url(pic99.png) no-repeat center top;}
+div.pic10{
+background:url(pic10.png) no-repeat center top;}
+#Tweets{
+margin-right: 30px;
+color:black;
+font-size:17px;
+
+}
+#replies{
+font-size:17px;}
+#media{
+font-size:17px;}
+
+div.profile1{
+width:50px;
+height:50px;
+border-radius: 50%;
+background: url(smallProfile.png) no-repeat center top;
+float:left;
+}
+div.other{
+margin-left:60px;}
+span.BillGates{
+color:black;
+font-size:15px;
+}
+span.date,div.gatesnotes,span.comments{
+color:LightSteelBlue;
+font-size:15px;
+font-family:Arial, Helvetica,sans-serif;}
+p.firstText{
+font-size:15px;
+color:black;
+font-family:Arial, Helvetica,sans-serif;}
+#picture{
+width:500px;
+height:260px;
+background:url(picture.png) no-repeat center top;}
+span.secondText{
+font-size:15px;
+color:black;}
+div.thirdText{
+font-size:15px;
+color:black;
+font-family:Arial, Helvetica,sans-serif;
+}
+span.comments{
+margin-right:15px;}
