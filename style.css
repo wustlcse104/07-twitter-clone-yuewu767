@@ -7,6 +7,8 @@ color:LightSteelBlue;}
 a.light:hover{
 color:LightSkyBlue;}
 
+
+ 
 div.coverImage{
 width: 1440px;
 height: 360px;
@@ -159,3 +161,9 @@ font-family:Arial, Helvetica,sans-serif;
 }
 span.comments{
 margin-right:15px;}
+ul.navbar-nav{
+margin-left:100px;}
+li.nav-item{
+margin-right:40px;}
+form.form-inline{
+margin-right:150px;}
