@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <title>Twitter Page</title>
+<meta charset="UTF-8">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 <link href="twitterPage.css" type="text/css" rel="stylesheet">
 </head>
+
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
@@ -24,7 +26,7 @@
         <a class="nav-link" href="#"><i class="far fa-envelope"></i>Messages</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+        <a class="nav-link twitter" href="#"><i class="fab fa-twitter"></i></a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -37,11 +39,11 @@
 </div>
 <div class="row">
   <div class="col-4 "></div>
-  <div class="col-1">Tweets</span><br>2696</div>
-  <div class="col-1">Following</span><br>183</div>
-  <div class="col-1">Followers</span><br>45.2M</div>
-  <div class="col-1">Likes</span><br>41</div>
-  <div class="col-4"><button type="button" class="btn btn-outline-primary"><span class="follow">Follow</span> </button></button></div>
+ <div class="col-1"><span>Tweets</span><br/>2696</div>
+  <div class="col-1"><span>Following</span><br>183</div>
+  <div class="col-1"><span>Followers</span><br>45.2M</div>
+  <div class="col-1"><span>Likes</span><br>41</div>
+  <div class="col-4"><button type="button" class="btn btn-outline-primary"><span class="follow">Follow</span> </button></div>
 </div>
 <div class="circle1"></div>
 <div class="row" id="twoColumns">
@@ -53,13 +55,13 @@
 <div class="words">Sharing things I'm learning through my<br>
 foundation work and other interests...</div>
 <br>
-<div class="location"><i class="fal fa-map-marker-alt"></i>Seattle, WA</div>
+<div class="location"><i class="fal fa-map-marker-alt"></i><i class="fas fa-map-marker-alt"></i>Seattle, WA</div>
 <div class="link"><a href="#"><i class="fas fa-link"></i>gatesnotes.com</a></div>
-<div class="when"><i class="fal fa-calendar-alt"></i>Joined June 2009</div>
+<div class="when"><i class="fal fa-calendar-alt"></i><i class="far fa-calendar-alt"></i>Joined June 2009</div>
 <br>
 <button type="button" class="btn btn-primary">Tweet to Bill Gates</button>
 <br>
-<div class="photos"><a href="#"><i class="far fa-user-alt"></i>14 followers you know</a></div>
+<div class="photos"><a href="#"><i class="far fa-user"></i>14 followers you know</a></div>
 <div class="roundPhotos pic11" ></div>
 <div class="roundPhotos pic22"></div>
 <div class="roundPhotos pic33"></div>
@@ -70,7 +72,7 @@ foundation work and other interests...</div>
 <div class="roundPhotos pic88"></div>
 <div class="roundPhotos pic99"></div>
 <div class="roundPhotos pic10"></div>
-<div class="photos"><a href="#"><i class="fal fa-images"></i>991 Photos and videos</a></div><!--link?-->
+<div class="photos"><a href="#"><i class="fal fa-images"></i><i class="far fa-image"></i>991 Photos and videos</a></div><!--link?-->
 <div class="squarePhotos pic1" ></div>
 <div class="squarePhotos pic2"></div>
 <div class="squarePhotos pic3"></div>
@@ -100,8 +102,11 @@ foundation work and other interests...</div>
  <div class="thirdText">Readers of all ages will enjoy John Green's latest novel, 
  Turtles All the Way Down.</div>
  <div class="gatesnotes">gatesnotes.com</div>
- <span class="comments"><i class="fal fa-comment"></i>335</span> <span class="comments">856</span>
-  <span class="comments">7.1K</span>  </div></div>
+ <a class="light" href="#"><span class="comments"><i class="far fa-comment"></i>335</span> </a>
+ <a class="light" href="#"><span class="comments"><i class="fas fa-retweet"></i>856</span></a>
+  <a class="light" href="#"><span class="comments"><i class="far fa-heart"></i>7.1K</span> </a>
+  <a class="light" href="#"><span class="comments"><i class="far fa-envelope"></i></span> </a>
+   </div></div>
   <div>
   <div class="profile1"></div>
  <div class="other">
@@ -110,8 +115,11 @@ foundation work and other interests...</div>
  together brilliant people to take on tough problems like health care in the U.S. and nuclear proliferation around the world. 
  I learned a lot from Pete and will miss him. </p>
  <div class="gatesnotes">gatesnotes.com</div>
- <span class="comments"><i class="fal fa-comment"></i>174</span> <span class="comments">448</span>
-  <span class="comments">4.0K</span>  </div></div>
+ <a class="light" href="#"><span class="comments"><i class="far fa-comment"></i>174</span></a> 
+  <a class="light" href="#"><span class="comments"> <i class="fas fa-retweet"></i>448</span></a>
+  <a class="light" href="#"><span class="comments"><i class="far fa-heart"></i>4.0K</span></a>
+  <a class="light" href="#"><span class="comments"><i class="far fa-envelope"></i></span> </a>
+    </div></div>
   
   <div>
   <div class="profile1"></div>
@@ -121,9 +129,14 @@ foundation work and other interests...</div>
  big step to end stunting and malnutrition. This commitment 
  will build healthier and more prosperous communities.</p>
  <div class="gatesnotes">gatesnotes.com</div>
- <span class="comments"><i class="fal fa-comment"></i>335</span> <span class="comments">856</span>
-  <span class="comments">7.1k</span>  </div></div>
+  <a class="light" href="#"><span class="comments"><i class="far fa-comment"></i>335</span></a>
+  <a class="light" href="#"><span class="comments"><i class="fas fa-retweet"></i>856</span></a>
+  <a class="light" href="#"><span class="comments"><i class="far fa-heart"></i>7.1k</span></a> 
+  <a class="light" href="#"><span class="comments"><i class="far fa-envelope"></i></span></a>
+   </div></div>
+   </div>
+   </div>
 </div>
-</div>
+
 </body>
 </html>
