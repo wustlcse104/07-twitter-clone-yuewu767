@@ -29,6 +29,7 @@ left: 140px;
 bottom: 160px;
 width: 200px;
 height: 200px;
+z-index:10;
 }
 
 span.follow{
@@ -46,7 +47,6 @@ bottom:200px;
 }
 div.col-5{
 background-color:#F0F2F3;
-z-index:-1;
 }
 div.content{
 margin-left:120px;
